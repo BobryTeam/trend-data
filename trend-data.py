@@ -1,19 +1,5 @@
-class TrendData:
-    def __init__(self):
-        '''
-        Инициализация класса
-        '''
-        pass
+from metrics import *
 
-    def __str__(self) -> str:
-        '''
-        Превращает скейл дату в строку
-        '''
-        return ''
 
-class TrendDataFromStr(TrendData):
-    def __init__(self, string_data: str):
-        '''
-        Инициализация класса из строки
-        '''
-        return super().__init__()
+class TrendData(Metrics): pass
+class TrendDataFromStr(MetricsDataFromStr): pass
