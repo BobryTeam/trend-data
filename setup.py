@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
-        'metrics @ https://github.com/BobryTeam/metrics.git@pip-deps'
+        'metrics @ git+https://github.com/BobryTeam/metrics.git@pip-deps'
     ],
     author='BobryTeam',
     author_email='sinntexxx@gmail.com',
