@@ -2,4 +2,4 @@ from metrics import *
 
 
 class TrendData(Metrics): pass
-class TrendDataFromStr(MetricsDataFromStr): pass
+class TrendDataFromStr(MetricsFromStr): pass
